@@ -1,3 +1,7 @@
 venv/
 *pem
 .sqlite3
+venv/
+*.pem
+__pycache__/
+*.sqlite3
