@@ -19,7 +19,7 @@ const FileList = ({ files, onDelete }) => {
   const handleDelete = async (fileId) => {
     try {
       await deleteDocument(fileId);
-      onDelete(fileId); // Notify parent component to update the list
+      onDelete(fileId); 
     } catch (error) {
       console.error("Failed to delete document:", error);
     }
@@ -74,7 +74,7 @@ const FileList = ({ files, onDelete }) => {
             <iframe
               src={`http://127.0.0.1:8000/uploads/${selectedFile.filepath}`}
               title="PDF Preview"
-              className="w-full h-[800px] border rounded" // Increased height for better visibility
+              className="w-full h-[800px] border rounded"
             ></iframe>
             <div className="flex justify-end mt-4 space-x-4">
               <button

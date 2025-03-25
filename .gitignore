@@ -13,3 +13,4 @@ venv/
 *.pem
 __pycache__/
 *.sqlite3
+*.pub

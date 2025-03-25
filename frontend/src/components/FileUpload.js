@@ -26,7 +26,7 @@ const FileUpload = ({ onUploadSuccess }) => {
       }
 
       const data = await response.json();
-      onUploadSuccess(data); // Pass the backend response to the parent component
+      onUploadSuccess(data); 
     } catch (error) {
       console.error("Upload failed:", error);
     } finally {

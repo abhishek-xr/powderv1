@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000/api"; // Ensure this matches your backend URL
+const API_BASE = "http://127.0.0.1:8000/api"; 
 
 export const uploadFile = async (file) => {
   const formData = new FormData();

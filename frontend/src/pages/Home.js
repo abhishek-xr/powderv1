@@ -16,15 +16,15 @@ const Home = () => {
   };
 
   const handleUploadSuccess = (file) => {
-    setUploadedFiles([...uploadedFiles, file]); // Add the uploaded file to the state
+    setUploadedFiles([...uploadedFiles, file]); 
   };
 
   const handleDelete = (fileId) => {
-    setUploadedFiles(uploadedFiles.filter((file) => file.file_id !== fileId)); // Remove the deleted file from the state
+    setUploadedFiles(uploadedFiles.filter((file) => file.file_id !== fileId)); 
   };
 
   useEffect(() => {
-    fetchDocuments(); // Fetch all documents on component mount
+    fetchDocuments(); 
   }, []);
 
   return (

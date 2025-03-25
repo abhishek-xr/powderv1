@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; // Use ReactDOM from "react-dom/client" for React 18
+import ReactDOM from "react-dom/client"; 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import "./index.css"; // Import Tailwind CSS
+import "./index.css"; 
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root")); // Use createRoot
+const root = ReactDOM.createRoot(document.getElementById("root")); 
 root.render(
   <React.StrictMode>
     <App />
