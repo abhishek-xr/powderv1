@@ -1,6 +1,6 @@
 # PowderV1
 
-PowderV1 is a FastAPI-based backend application designed to handle file uploads, parsing, and processing. It leverages SQLAlchemy for database interactions and provides a robust API for managing and processing files.
+FastAPI-based backend application designed to handle file uploads, parsing, and processing. It leverages SQLAlchemy for database interactions and provides a robust API for managing and processing files.
 
 ---
 
